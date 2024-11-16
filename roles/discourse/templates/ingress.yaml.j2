@@ -21,9 +21,9 @@ spec:
     http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
           service:
             name: discourse
-          service:
             port:
               name: http
