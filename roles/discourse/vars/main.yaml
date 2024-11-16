@@ -5,6 +5,9 @@ d_sa_psp: im-core-unrestricted
 # HTTP payload size (used for the ingress)
 d_ingress_nginx_proxy_body_size: 100m
 
+# Does the control host need kubernetes?
+d_control_needs_kubernetes: no
+
 # Enable liveness and readiness probes
 # in the discourse and sidekiq containers?
 d_enable_probes: yes
